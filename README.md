@@ -1,40 +1,46 @@
-# Loan-Prediction
-Predicting whether a person who has applied for a loan in a bank would get his/her loan approved or not using Classification Algorithms in Machine Learning, by looking at some common and useful attributes.
+# BigMart Sales Prediction Analysis - Regression
 
-# Description
-This is loan Prediction project created by me.
+# Dataset Information
 
-In this I have use the machine learning algorithms such as **Logistic Regression**, **Support Vector Machine**, **Decision Tree**, 
-**Decision Tree**, **Random Forset**, **Multi Layer Perceptron**. 
+The data scientists at BigMart have collected 2013 sales data for 1559 products across 10 stores in different cities. Also, certain attributes of each product and 
+store have been defined. The aim is to build a predictive model and find out the sales of each product at a particular store.
 
-# Context
-There's a story behind every dataset and here's your opportunity to share yours.
+Using this model, BigMart will try to understand the properties of products and stores which play a key role in increasing sales.
 
-# Content
-What's inside is more than just rows and columns. Make it easy for others to get started by describing how you acquired the data and what time period it represents, too.
 
-# Acknowledgements
-We wouldn't be here without the help of others. If you owe any attributions or thanks, include them here along with any citations of past research.
+Variable | Description
+----------|--------------
+Item_Identifier | Unique product ID
+Item_Weight | Weight of product
+Item_Fat_Content | Whether the product is low fat or not
+Item_Visibility | The % of total display area of all products in a    store allocated to the particular product
+Item_Type | The category to which the product belongs
+Item_MRP | Maximum Retail Price (list price) of the product
+Outlet_Identifier | Unique store ID
+Outlet_Establishment_Year | The year in which store was established
+Outlet_Size | The size of the store in terms of ground area covered
+Outlet_Location_Type | The type of city in which the store is located
+Outlet_Type | Whether the outlet is just a grocery store or some sort of supermarket
+Item_Outlet_Sales | Sales of the product in the particulat store. This is the outcome variable to be predicted.
 
-# Inspiration
-Your data will be in front of the world's largest data science community. What questions do you want to see answered?
+**Download link:** https://www.kaggle.com/devashish0507/big-mart-sales-prediction
 
-# Columns
-Loan ID
-Customer ID
-Current Loan Amount
-Term
-Credit Score
-Annual Income
-Years in current job
-Home Ownership
-Purpose
-Monthly Debt
-Years of Credit History
-Months since last delinquent
-Number of Open Accounts
-Number of Credit Problems
-Current Credit Balance
-Maximum Open Credit
-Bankruptcies
-Tax Liens
+# Libraries
+
+<li>pandas
+<li>matplotlib
+<li>seaborn
+<li>scikit-learn
+
+# Algorithms
+
+<li>Linear Regression
+<li>Ridge
+<li>Lasso
+<li>Decision Tree
+<li>Random Forest
+<li>Extra Tress
+  
+**Mean Squared Error:** 0.28
+
+**Note:** The Error metric is in log values. To convert to original values, use exponentiation.
